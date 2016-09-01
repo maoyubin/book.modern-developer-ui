@@ -1,0 +1,88 @@
+html {
+	box-sizing: border-box;
+}
+*, 
+*:before, 
+*:after {
+	box-sizing: inherit;
+	margin: 0;
+	padding: 0;
+}
+
+.header-wrap{
+	background: url(assets/books_header_bg.jpg) no-repeat center center fixed;
+	background-size: 100% 100%;
+}
+
+.book-developer {
+	text-align: center; 
+}
+
+.header-logo-field {
+	height: 100px;
+}
+
+.header-logo, .header-title {
+	display: inline-block;
+}
+
+.header-title {
+	line-height: 30px;
+	vertical-align: 50%;
+	padding: 3% 0 7%; 
+}
+
+.md-text-header {
+  color: white;
+  text-align: left;
+}
+.md-text-header span {
+  color: rgba(241, 239, 244, 0.5);
+  font-weight: 400;
+}
+
+.md-text {
+  font-size: 1.5rem;
+  display: inline;
+  font-family: "Roboto Slab";
+  font-weight: 500;
+}
+
+.md-text-small {
+  font-size: 0.6rem;
+  font-family: "Roboto Slab";
+  color: rgba(102, 94, 94, 0.5);
+}
+
+.book-developer h1 {
+	display: block;
+}
+
+.search-field {
+	padding-top: 20px;
+	padding-bottom: 30px;
+}
+
+.search-field input, .search-field button {
+	color: #e8e8e8;
+	height: 2rem;
+	border: none;
+	border-radius: 2px;
+}
+.search-field input {
+	background-color: rgba(247, 239, 239, 0.5);
+	padding: 0 0.5em;
+	width: 30rem;
+	color: rgb(167, 198, 47);
+}
+.search-field button {
+	background-color: #fff;
+	margin-left: -16px;
+	text-align: center;
+	width: 4rem;
+}
+
+.search-field button i {
+	color: rgb(167, 198, 47);
+}
+
