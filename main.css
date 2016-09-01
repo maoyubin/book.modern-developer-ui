@@ -86,3 +86,35 @@ html {
 	color: rgb(167, 198, 47);
 }
 
+.books-menu {
+	width: 100%;
+	position: relative;
+	height: 100%;
+	overflow: hidden;
+}
+
+.books-menu ul{
+	text-align: center;
+	list-style: none;
+	margin-right: 10%;
+	margin-left: 10%; 
+	padding: 0;
+}
+
+.books-menu li {
+  font-family: "Roboto Slab";
+  padding: 10px 0;
+  font-weight: 600;
+  float: left;
+  width: 15%;
+  position: relative;
+  line-height: 1em;
+  font-size: 0.8em;
+  color: rgb(183, 183, 183);
+  cursor: pointer;
+  vertical-align: baseline;
+}
+
+.books-section {
+	background-color: rgb(234, 237, 235);
+}
