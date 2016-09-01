@@ -115,6 +115,55 @@ html {
   vertical-align: baseline;
 }
 
+.books-menu li:hover {
+	color: rgb(157, 195, 44);
+}
+
 .books-section {
 	background-color: rgb(234, 237, 235);
+	height: 70%;
+}
+
+
+footer {
+  padding: 2rem 8%;
+  background-color: #242424;
+  overflow: hidden;
+}
+
+.fooder-logo, .fooder-title {
+	display: inline-block;
+}
+
+.fooder-title {
+	line-height: 30px;
+	vertical-align: 30%;
+}
+
+.fooder-logo-field {
+	height: 100px;
+}
+
+.fooder-logo-right {
+	vertical-align: center;
+	float: left;
+	font-size: 1em;
+}
+
+.fooder-logo-left {
+	vertical-align: center;
+	float: right;
+}
+
+.md-text-small1 {
+	font-family: "Roboto Slab";
+	color: rgb(183, 172, 172);
+	font-size: 0.8em;
+}
+
+
+.md-text-small2 {
+	font-family: "Roboto Slab";
+	color: rgba(183, 172, 172, 0.3);
+	font-size: 0.8em;
 }
