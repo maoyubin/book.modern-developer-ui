@@ -9,17 +9,23 @@ html {
 	padding: 0;
 }
 
+a {
+	text-decoration: none;
+}
+
 .header-wrap{
 	background: url(assets/books_header_bg.jpg) no-repeat center center fixed;
 	background-size: 100% 100%;
 }
 
 .book-developer {
-	text-align: center; 
+	text-align: center;
+	padding: 20px 0px 40px 0px; 
 }
 
 .header-logo-field {
 	height: 100px;
+	margin-bottom: 40px;
 }
 
 .header-logo, .header-title {
@@ -32,6 +38,13 @@ html {
 	padding: 3% 0 7%; 
 }
 
+.md-text {
+  font-size: 2rem;
+  display: inline;
+  font-family: "Roboto Slab";
+  font-weight: 500;
+}
+
 .md-text-header {
   color: white;
   text-align: left;
@@ -41,15 +54,9 @@ html {
   font-weight: 400;
 }
 
-.md-text {
-  font-size: 1.5rem;
-  display: inline;
-  font-family: "Roboto Slab";
-  font-weight: 500;
-}
 
 .md-text-small {
-  font-size: 0.6rem;
+  font-size: 1rem;
   font-family: "Roboto Slab";
   color: rgba(102, 94, 94, 0.5);
 }
@@ -65,14 +72,14 @@ html {
 
 .search-field input, .search-field button {
 	color: #e8e8e8;
-	height: 2rem;
+	height: 3rem;
 	border: none;
 	border-radius: 2px;
 }
 .search-field input {
 	background-color: rgba(247, 239, 239, 0.5);
 	padding: 0 0.5em;
-	width: 30rem;
+	width: 40rem;
 	color: rgb(167, 198, 47);
 }
 .search-field button {
@@ -96,26 +103,29 @@ html {
 .books-menu ul{
 	text-align: center;
 	list-style: none;
-	margin-right: 10%;
-	margin-left: 10%; 
+	margin-right: 5%;
+	margin-left: 5%; 
 	padding: 0;
 }
 
 .books-menu li {
-  font-family: "Roboto Slab";
-  padding: 10px 0;
-  font-weight: 600;
+  padding: 20px 0;
+  font-weight: 400;
   float: left;
   width: 15%;
   position: relative;
-  line-height: 1em;
-  font-size: 0.8em;
-  color: rgb(183, 183, 183);
   cursor: pointer;
   vertical-align: baseline;
 }
 
-.books-menu li:hover {
+.books-menu li a {
+	 font-family: "Roboto Slab";
+	 line-height: 1em;
+	 font-size: 1em;
+	 color: rgb(183, 183, 183);
+}
+
+.books-menu li a.active {
 	color: rgb(157, 195, 44);
 }
 
@@ -124,6 +134,127 @@ html {
 	height: 70%;
 }
 
+/*books sectino*/
+.books-section {
+	background-color: rgb(245, 245, 245);
+	padding-top: 4rem;
+}
+
+.books {
+	overflow: hidden;
+	margin: 0 10%;
+	background-color: rgb(255, 255, 255);
+}
+
+.book-presentation {
+	float: left;
+	display: relative;
+	width: 70%;
+}
+
+.books img {
+	float: left;
+	display: relative;
+	width: 30%;
+}
+
+.book-presentation header {
+	padding-top: 2.5rem;
+	padding-left: 1.5rem;
+}
+
+.book-presentation header h2 {
+	font-family: "Roboto Slab";
+	font-size: 1.8rem;
+	font-weight: 400;
+}
+
+.book-data {
+	font-family: "Roboto Slab";
+	padding: 1.5rem 0 1rem;
+}
+
+.book-data p, .book-data input {
+	font-family: "Roboto Slab";
+	font-size: 0.8rem;
+	display: inline-block;
+}
+
+.book-data input {
+	height: 1.5rem;
+	width: 3rem;
+	border: 1px solid rgb(76, 175, 80);
+	background-color: white;
+	color: rgb(76, 175, 80);
+}
+
+.book-published {
+	margin-right: 5%;
+	margin-left: 5%;
+}
+
+.book-data p span {
+	color: rgb(85, 120, 244);
+}
+
+.book-content {
+  overflow: hidden;
+}
+
+.book-desc {
+	float: left;
+	width: 60%;
+}
+
+.book-desc p {
+	font-family: "Roboto Slab";
+	margin-left: 1rem;
+	margin-top: 1rem;
+	margin-right: 1rem;
+}
+
+.book-comment {
+	float: left;
+	width: 40%;
+}
+
+.book-content a {
+	display: block;
+	color: rgb(85, 120, 244);
+	font-family: "Roboto Slab";
+	margin-left: 1rem;
+	padding-top: 1rem;
+}
+
+.book-comment {
+	border-left: 2px solid rgb(234, 237, 235);
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+
+.group-range {
+	margin-left: 1rem;
+}
+
+.group-rating a {
+	font-family: "Roboto Slab";
+	font-size: 1rem;
+	line-height: 2rem;
+	vertical-align: 40%;
+	color: rgb(85, 120, 244);
+	border-bottom: 1px solid rgb(76, 175, 80);
+	overflow: hidden;
+}
+
+.group-rating a span{
+	float: left;
+}
+
+.group-rating a i{
+	line-height: 2rem;
+	vertical-align: center;
+	float: right;
+}
 
 footer {
   padding: 2rem 8%;
