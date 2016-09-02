@@ -129,6 +129,7 @@ footer {
   padding: 2rem 8%;
   background-color: #242424;
   overflow: hidden;
+  margin-bottom: 0px;
 }
 
 .fooder-logo, .fooder-title {
@@ -157,13 +158,13 @@ footer {
 
 .md-text-small1 {
 	font-family: "Roboto Slab";
-	color: rgb(183, 172, 172);
+	color: rgba(241, 239, 244, 0.5);
 	font-size: 0.8em;
 }
 
 
 .md-text-small2 {
 	font-family: "Roboto Slab";
-	color: rgba(183, 172, 172, 0.3);
+	color: rgb(232, 225, 225);
 	font-size: 0.8em;
 }
