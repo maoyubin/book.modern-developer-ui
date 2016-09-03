@@ -141,25 +141,26 @@ a {
 }
 
 .books {
-	overflow: hidden;
 	margin: 0 10% 30px;
 	background-color: rgb(255, 255, 255);
+	display: flex;
 }
 
 .book-presentation {
-	float: left;
 	width: 70%;
-	margin-bottom: 1.5rem;
 }
 
 .books .book-img {
-	float: left;
-	width: 30%;
+    width: 30%;
+    height: 100%;
 }
 
-.book-img{
-	background: url(assets/cover-eloquent-js.png) no-repeat center center fixed;
-	background-size: 100% 100%;
+.book-img img{
+	padding: 0;
+    display: block;
+    margin: 0;
+    max-height: 100%;
+    max-width: 100%;
 }
 
 .book-presentation header {
@@ -213,7 +214,7 @@ a {
 .book-desc p {
 	font-family: "Roboto Slab";
 	margin-left: 1rem;
-	margin-top: 1rem;
+	margin-top: 0.5rem;
 	margin-right: 1rem;
 }
 
@@ -227,7 +228,7 @@ a {
 	color: rgb(85, 120, 244);
 	font-family: "Roboto Slab";
 	margin-left: 1rem;
-	padding-top: 1rem;
+	padding-top: 0.4rem;
 }
 
 .book-comment {
@@ -241,7 +242,7 @@ a {
 }
 
 .group-rating{
-	margin-top: 30px;
+	margin-top: 1.6rem;
 }
 .group-rating a {
 	font-family: "Roboto Slab";
@@ -332,6 +333,7 @@ footer {
 .label-des {
 	margin-top: 0.5rem;
 	margin-bottom: 0.5rem;
+	height: 1rem
 }
 
 .label-des label {
@@ -357,14 +359,14 @@ footer {
 
 .des-box {
 	display: inline-block;
-	width: 1.5rem;
-	height: 1.5rem;
+	width: 1.2rem;
+	height: 1.2rem;
 	font-family: "Roboto Slab";
 	color: rgb(165, 172, 175);
 	text-align: center;
 	vertical-align: middle;
-	font-size: 0.2em;
-	padding: 5px;
+	font-size: 0.1em;
+	padding: 2px;
 	position: relative;
 }
 
@@ -384,7 +386,7 @@ footer {
 	content: '';
 	position: absolute;
 	left: 0;
-	bottom: -0.3em;
+	bottom: -0.2em;
 	height: 0;
 	width: 0;
 	border-right: 0.5em solid transparent;
