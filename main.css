@@ -302,13 +302,61 @@ footer {
 	font-size: 0.8em;
 }
 
-
 .md-text-small2 {
 	font-family: "Roboto Slab";
 	color: rgb(232, 225, 225);
 	font-size: 0.8em;
 }
 
+/*button below books*/
+.book-price {
+	display: flex;
+	position: relative;
+	margin: 0 10% 30px;
+}
+
+.gumroad {
+	background-color: white;
+	width: 15%;
+	border-radius: 5px;
+}
+
+.gumroad::before {
+	content:'';
+	position: absolute;
+	top: 0;
+	left: 0px;
+	width:15%;
+	height:0.3em;
+	background: linear-gradient(to right,rgb(247, 203, 81) 25%,rgb(221, 121, 59) 25%,rgb(221, 121, 59) 50%,rgb(229, 32, 137) 50%,rgb(229, 32, 137) 75%,rgb(193, 29, 29) 75%,rgb(193, 29, 29) 75%);
+}
+
+.gumroad img {
+	padding: 7px 5px 5px 5px;
+	width: 25%;
+	height: 25%;
+}
+
+.gumroad-font {
+	font-family: "Roboto Slab";
+	color: rgb(201, 191, 191);
+	font-size: 1.2rem;
+	margin-left: 0.2rem;
+	vertical-align: 45%;
+	line-height: 30px;
+}
+
+.gumroad-price {
+	widows: 13%;
+	background-color: white;
+	font-family: "Roboto Slab";
+	color: rgb(111, 196, 78);
+	font-size: 1.2rem;
+	padding: 0.5rem;
+	border-left: 1px solid rgb(201, 191, 191);
+	vertical-align: 40%;
+	line-height: 30px;
+}
 
 /*book range*/
 .book-range {
