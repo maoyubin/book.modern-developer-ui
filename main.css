@@ -54,7 +54,6 @@ a {
   font-weight: 400;
 }
 
-
 .md-text-small {
   font-size: 1rem;
   font-family: "Roboto Slab";
@@ -68,23 +67,29 @@ a {
 .search-field {
 	padding-top: 20px;
 	padding-bottom: 30px;
+	width: 50%;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	overflow: hidden;
 }
 
 .search-field input, .search-field button {
 	color: #e8e8e8;
 	height: 3rem;
+	float: left;
 	border: none;
 	border-radius: 2px;
 }
 .search-field input {
 	background-color: rgba(247, 239, 239, 0.5);
 	padding: 0 0.5em;
-	width: 40rem;
+	font-size: 1em;
+	width: 35rem;
 	color: rgb(167, 198, 47);
 }
 .search-field button {
 	background-color: #fff;
-	margin-left: -16px;
 	text-align: center;
 	width: 4rem;
 }
@@ -132,6 +137,7 @@ a {
 .books-section {
 	background-color: rgb(234, 237, 235);
 	height: 70%;
+	padding-bottom: 10%;
 }
 
 /*books sectino*/
@@ -390,6 +396,34 @@ footer {
 .clear-fix {
 	overflow: hidden;
 	margin-bottom: 20px;
+}
+
+#download_button{
+	font-family: "Roboto Slab";
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 1.2rem;
+	margin: 0 25px 30px 10%;
+	width: 20%;
+	color: white;
+	background-color: rgb(152, 196, 0);
+	border-radius: 5px;
+	border-style: none;
+}
+
+.load-books{
+	margin: 0 25px 30px 10%;
+	color: white;
+	text-align: center;
+	border-radius: 5px;
+}
+
+.load-books a {
+	padding: 10px 30px;
+	font-family: "Roboto Slab";
+	font-size: 1.2rem;
+	color: rgb(188, 183, 188);
+	border-radius: 5px;
 }
 
 /*book range*/
