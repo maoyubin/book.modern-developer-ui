@@ -309,15 +309,25 @@ footer {
 }
 
 /*button below books*/
-.book-price {
-	display: flex;
+.book-price-gumroad {
+	float: left;
 	position: relative;
-	margin: 0 10% 30px;
+	margin: 0 25px 30px 10%;
+}
+
+.book-price-amazon img {
+	float: left;
+}
+
+.book-price-manning img {
+	float: left;
+	margin-left: 25px;
 }
 
 .gumroad {
+	float: left;
 	background-color: white;
-	width: 15%;
+	width: 145px;
 	border-radius: 5px;
 }
 
@@ -326,18 +336,20 @@ footer {
 	position: absolute;
 	top: 0;
 	left: 0px;
-	width:15%;
-	height:0.3em;
+	width: 145px;
+	height: 0.3em;
 	background: linear-gradient(to right,rgb(247, 203, 81) 25%,rgb(221, 121, 59) 25%,rgb(221, 121, 59) 50%,rgb(229, 32, 137) 50%,rgb(229, 32, 137) 75%,rgb(193, 29, 29) 75%,rgb(193, 29, 29) 75%);
 }
 
 .gumroad img {
+	display: inline-block;
 	padding: 7px 5px 5px 5px;
 	width: 25%;
 	height: 25%;
 }
 
 .gumroad-font {
+	display: inline-block;
 	font-family: "Roboto Slab";
 	color: rgb(201, 191, 191);
 	font-size: 1.2rem;
@@ -346,16 +358,19 @@ footer {
 	line-height: 30px;
 }
 
-.gumroad-price {
-	widows: 13%;
+.display-price {
+	float: left;
 	background-color: white;
 	font-family: "Roboto Slab";
 	color: rgb(111, 196, 78);
 	font-size: 1.2rem;
 	padding: 0.5rem;
 	border-left: 1px solid rgb(201, 191, 191);
-	vertical-align: 40%;
-	line-height: 30px;
+}
+
+.clear-fix {
+	overflow: hidden;
+	margin-bottom: 20px;
 }
 
 /*book range*/
