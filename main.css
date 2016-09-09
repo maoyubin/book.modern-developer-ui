@@ -527,12 +527,9 @@ footer {
 	width: 40%;
 }
 
-.book-content-dispay-right {
-	width: 100%;
-}
 
 .book-content-dispay-wrapper {
-  width: 100%;
+  width: 50%;
   display:inline-block;
   float:left;
   border:3px solid rgb(203, 233, 231);
@@ -566,15 +563,13 @@ footer {
   margin-left: 40px;
 }
 
-
 .book-content-dispay-tab a {
   display:inline-block;
 }
 
 .remove {
   display:inline-block;
-  margin-right: 40px;
-  padding-left: 60px;
+  margin: 0 15px;
   line-height: 40px;
   text-align: center;
 }
@@ -591,8 +586,7 @@ footer {
   display:inline-block;
   float:left;
   text-decoration:none;
-  width:140px;
-  padding: 0 10px;
+  width: 8rem;
   text-align:center;
   vertical-align: middle;
   line-height:40px;
