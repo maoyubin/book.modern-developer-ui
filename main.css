@@ -519,3 +519,145 @@ footer {
 .des-box.azure::after {
 	border-top: 0.5em solid rgb(220, 238, 247);
 }
+
+
+/*book centent*/
+
+.book-content-dispay-left {
+	width: 40%;
+}
+
+.book-content-dispay-right {
+	width: 100%;
+}
+
+.book-content-dispay-wrapper {
+  width: 100%;
+  display:inline-block;
+  float:left;
+  border:3px solid rgb(203, 233, 231);
+}
+
+.book-key-word {
+  text-align: left;
+  display: block;
+  padding: 5px;
+  margin: 30px 30px 0 30px;
+  height: 40px;
+  font-size: 1.2rem;
+  width: 30rem;
+}
+
+.book-content-dispay {
+  margin: 30px;
+  height: 30rem;
+  width: 30rem;
+  overflow: auto;
+}
+
+.book-content-dispay-tab {
+  transform: rotate(90deg);
+  transform-origin: left top 0;
+  display:inline-block;
+  float:left;
+  height:40px;
+  width: 100%;
+  top: 80px;
+  margin-left: 40px;
+}
+
+
+.book-content-dispay-tab a {
+  display:inline-block;
+}
+
+.remove {
+  display:inline-block;
+  margin-right: 40px;
+  padding-left: 60px;
+  line-height: 40px;
+  text-align: center;
+}
+
+
+.book-content-dispay-tab ul {
+  display:inline-block;
+  position: absolute;
+  list-style:none;
+  margin: 0;
+}
+
+.book-content-dispay-tab ul li {
+  display:inline-block;
+  float:left;
+  text-decoration:none;
+  width:140px;
+  padding: 0 10px;
+  text-align:center;
+  vertical-align: middle;
+  line-height:40px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.book-content-dispay-tab ul li.active {
+  background-color:rgb(203, 233, 231);
+}
+
+.book-content-dispay-tab ul li a {
+  text-decoration:none;
+  font-size: 0.8rem;
+  color:rgb(14, 168, 234);
+  font-family: "Roboto Slab";
+  font-weight: 400;
+}
+
+.book-content-dispay p {
+  padding: 10px 0;
+
+}
+
+.book-content-dispay p * {
+  font-size: 0.7rem;
+  color:rgb(38, 38, 38);
+  font-family: "Roboto Slab";
+  font-weight: 400;
+}
+
+.book-content-dispay p span:nth-child(1) {
+  float: left;
+}
+
+.book-content-dispay p span:nth-child(2) {
+  float: right;
+  padding-right: 3rem;
+}
+
+.book-content-dispay>p {
+  overflow: hidden;
+}
+
+/* Scrollbar */
+
+::-webkit-scrollbar {
+  width: 0.3rem;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(183, 183, 183);
+  border-radius: 0;
+
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgb(43, 52, 56);
+}
+
+::-webkit-scrollbar-track {
+  background-color: #dae5ea;
+    height: 1px;
+}
+
+/* End Scrollbar */
+
+/*end book centent*/
