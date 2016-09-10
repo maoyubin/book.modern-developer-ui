@@ -315,7 +315,7 @@ footer {
 .book-price-gumroad {
 	float: left;
 	position: relative;
-	margin: 0 25px 30px 10%;
+	margin: 0 25px 30px 0;
 }
 
 .book-price-amazon img {
@@ -392,7 +392,8 @@ footer {
 
 .clear-fix {
 	overflow: hidden;
-	margin-bottom: 20px;
+	margin-bottom: 50px;
+	margin-left: 10%;
 }
 
 #download_button{
@@ -409,13 +410,12 @@ footer {
 }
 
 .load-books{
-	color: white;
 	text-align: center;
 	border-radius: 5px;
+	margin: 130px;
 }
 
 .load-books a {
-	padding: 10px 30px;
 	font-family: "Roboto Slab";
 	font-size: 1.2rem;
 	color: rgb(188, 183, 188);
@@ -518,17 +518,56 @@ footer {
 
 
 /*book centent*/
-
 .book-content-dispay-left {
-	width: 40%;
+	width: 45%;
+	background-color: rgb(235, 235, 235);
+	opacity: 0.3;
 }
 
+.book-content-dispay-right {
+	width: 55%;
+}
 
 .book-content-dispay-wrapper {
-  width: 50%;
   display:inline-block;
-  float:left;
   border:3px solid rgb(203, 233, 231);
+}
+
+.book-content-dispay-tab {
+  display:inline-block;
+  height:400px;
+  vertical-align:top;
+}
+
+.book-content-dispay-left header {
+	padding-top: 1.5rem;
+	padding-left: 1.5rem;
+}
+
+.book-content-dispay-left header h2 {
+	font-family: "Roboto Slab";
+	font-size: 1.8rem;
+	font-weight: 400;
+}
+
+.book-desc-ex {
+	float: left;
+	width: 100%;
+}
+
+.book-desc-ex p {
+	font-family: "Roboto Slab";
+	margin: 2rem;
+	font-size: 1rem;
+	line-height: 2rem;
+}
+
+.book-content-ex a {
+	display: block;
+	color: rgb(85, 120, 244);
+	font-family: "Roboto Slab";
+	margin-left: 2rem;
+	padding-top: 0.4rem;
 }
 
 .book-key-word {
@@ -548,25 +587,9 @@ footer {
   overflow: auto;
 }
 
-.book-content-dispay-tab {
-  transform: rotate(90deg);
-  transform-origin: left top 0;
-  display:inline-block;
-  float:left;
-  height:40px;
-  width: 100%;
-  top: 80px;
-  margin-left: 40px;
-}
-
-.book-content-dispay-tab a {
-  display:inline-block;
-}
-
 .remove {
-  display:inline-block;
-  margin: 0 15px;
-  line-height: 40px;
+  margin: 0 18px;
+  line-height: 50px;
   text-align: center;
 }
 
@@ -579,15 +602,13 @@ footer {
 }
 
 .book-content-dispay-tab ul li {
-  display:inline-block;
-  float:left;
+  writing-mode: tb-rl;
   text-decoration:none;
-  width: 8rem;
-  text-align:center;
+  width: 3.4rem;
+  height: 10rem;
+  text-align: center;
   vertical-align: middle;
-  line-height:40px;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
+  line-height: 3.4rem;
 }
 
 .book-content-dispay-tab ul li.active {
@@ -596,10 +617,11 @@ footer {
 
 .book-content-dispay-tab ul li a {
   text-decoration:none;
-  font-size: 0.8rem;
+  font-size: 1.1rem;
   color:rgb(14, 168, 234);
   font-family: "Roboto Slab";
   font-weight: 400;
+  padding 100px 5px;
 }
 
 .book-content-dispay p {
@@ -628,7 +650,6 @@ footer {
 }
 
 /* Scrollbar */
-
 ::-webkit-scrollbar {
   width: 0.3rem;
 }
@@ -649,5 +670,4 @@ footer {
 }
 
 /* End Scrollbar */
-
 /*end book centent*/
