@@ -519,17 +519,18 @@ footer {
 
 /*book centent*/
 .book-content-dispay-left {
-	width: 45%;
+	width: 40%;
 	background-color: rgb(235, 235, 235);
 	opacity: 0.3;
 }
 
 .book-content-dispay-right {
-	width: 55%;
+	width: 60%;
 }
 
 .book-content-dispay-wrapper {
   display:inline-block;
+  width: 91%;
   border:3px solid rgb(203, 233, 231);
 }
 
@@ -577,13 +578,12 @@ footer {
   margin: 30px 30px 0 30px;
   height: 40px;
   font-size: 1.2rem;
-  width: 30rem;
+  width: 85%;
 }
 
 .book-content-dispay {
   margin: 30px;
   height: 30rem;
-  width: 30rem;
   overflow: auto;
 }
 
@@ -630,23 +630,28 @@ footer {
 }
 
 .book-content-dispay p * {
-  font-size: 0.7rem;
+  font-size: 0.9rem;
   color:rgb(38, 38, 38);
   font-family: "Roboto Slab";
   font-weight: 400;
 }
 
-.book-content-dispay p span:nth-child(1) {
+.book-content-dispay p span.span-left {
   float: left;
 }
 
-.book-content-dispay p span:nth-child(2) {
+.book-content-dispay p span.span-right {
   float: right;
   padding-right: 3rem;
 }
 
 .book-content-dispay>p {
   overflow: hidden;
+}
+
+.search-key{
+	padding: 5px;
+	background-color: rgb(213, 237, 210);
 }
 
 /* Scrollbar */
