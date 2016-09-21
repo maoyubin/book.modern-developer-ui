@@ -19,8 +19,8 @@ a {
 }
 
 .book-developer {
-	padding: 20px 25% 40px 25%;
-	text-align: left;
+	padding: 20px 20% 40px 20%;
+	text-align: center;
 }
 
 .header-logo-field {
@@ -67,7 +67,7 @@ a {
 
 .search-field {
 	padding:20px 0 30px 0;
-	margin: 0  auto;
+	margin-left: 10%;
 	overflow: hidden;
 }
 
