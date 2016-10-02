@@ -6,5 +6,10 @@ The project assignment was to emulate [this portion of the UI for Books.Modern D
 
 [view hosted on Github](https://maoyubin.github.io/book.modern-developer-ui/)  
 
-**Note**  
-Since some compatibility issues,please use Chrome to display this page
+##Workflow and workload  
+
+Mao yubin: Create layout of books page and its contents  
+
+Justin Browne:  Make some adjustments to the code to make sure it works on most resolutions  
+
+
