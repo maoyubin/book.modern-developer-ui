@@ -44,6 +44,15 @@ a {
   font-family: "Roboto Slab";
 }
 
+/*
+.md-text {
+  font-size: 2rem;
+  display: inline;
+  font-family: "Roboto Slab";
+  font-weight: 500;
+}
+*/
+
 .md-text-header {
   color: white;
   text-align: left;
@@ -130,7 +139,6 @@ a {
   vertical-align: baseline;
 }
 */
-
 .books-menu li a {
 	 font-family: "Roboto Slab";
 	 line-height: 1em;
@@ -688,7 +696,7 @@ footer {
 }
 
 /* End Scrollbar */
-/*end book centent*/  
+/*end book centent*/
 
 @media (min-width: 800px){
   	.books-menu ul{
