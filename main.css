@@ -57,7 +57,6 @@ a {
 }
 
 .md-text-small {
-  font-size: 1rem;
   font-family: "Roboto Slab";
   color: rgba(102, 94, 94, 0.5);
 }
@@ -693,14 +692,22 @@ footer {
 /* End Scrollbar */
 /*end book centent*/  
 
-@media (min-width: 600px){
+@media (min-width: 800px){
   	.books-menu ul{
 		display: flex;
 		justify-content: center;
 	}
+	.md-text {
+		font-size: 2rem;
+		font-weight: 500;
+	}
+	
+	.md-text-small {
+		font-size: 1rem;
+	}
 }
 
-@media (max-width: 600px){
+@media (max-width: 800px){
   	.books-menu ul{
 		display: flex;
 		flex-direction: column;
@@ -709,5 +716,20 @@ footer {
 	
 	.books-menu li{
 		text-align: center;
+	}
+	
+	.md-text {
+		font-size: 1rem;
+		font-weight: 300;
+	}
+	
+	.md-text-small {
+		font-size: .5rem;
+	}
+	
+	.header-title {
+		line-height: 10px;
+		padding: 2% 0 3%;
+		width: 40%;
 	}
 }
