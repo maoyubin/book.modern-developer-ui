@@ -40,10 +40,8 @@ a {
 }
 
 .md-text {
-  font-size: 2rem;
   display: inline;
   font-family: "Roboto Slab";
-  font-weight: 500;
 }
 
 .md-text-header {
