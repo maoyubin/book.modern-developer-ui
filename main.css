@@ -105,6 +105,17 @@ a {
 }
 
 .books-menu ul{
+	list-style: none;
+}
+
+.books-menu li {
+  padding: 1em .8em;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+/*
+.books-menu ul{
 	text-align: center;
 	list-style: none;
 	margin-right: 5%;
@@ -121,6 +132,7 @@ a {
   cursor: pointer;
   vertical-align: baseline;
 }
+*/
 
 .books-menu li a {
 	 font-family: "Roboto Slab";
@@ -679,4 +691,23 @@ footer {
 }
 
 /* End Scrollbar */
-/*end book centent*/
+/*end book centent*/  
+
+@media (min-width: 600px){
+  	.books-menu ul{
+		display: flex;
+		justify-content: center;
+	}
+}
+
+@media (max-width: 600px){
+  	.books-menu ul{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+	
+	.books-menu li{
+		text-align: center;
+	}
+}
